@@ -1,0 +1,723 @@
+body {}
+
+
+/*Clearfix*/
+
+#main-content div.center-part div.add-design div.heading-and-date:after,
+#main-content div.center-part div.add-design:after,
+#main-content div.center-part:after,
+div.s-row:after,
+div.center-part div.add-design div.ad-content div.user-data:after,
+div.my-form form fieldset:after,
+div.my-ads-center-side:after,
+div.check-box:after
+/*, div.registration-form form fieldset:after*/
+
+{
+	display: block;
+	clear: both;
+	content: "";
+}
+
+
+/*End of Clearfix*/
+
+
+/*Buttons */
+
+#main-content div.left-part div.login-register a.my-button,
+div.login-form form fieldset button,
+div.my-form form fieldset div button,
+div.my-form form fieldset button,
+div.status button,
+div.ad-wrap section a button,
+div.admin-form form fieldset div.btns input,
+div.my-ads-center-side form fieldset section input,
+div.my-form form fieldset section input
+
+
+{
+	min-width:50%
+	max-width: 100%;
+	display: inline-block;
+	background: #6fab46;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	margin: 0 auto 20px auto;
+	border: 1px solid #507e32;
+	overflow-wrap: break-word;
+}
+
+
+/*End of Buttons*/
+
+
+/*Header starts
+=========================================================
+*/
+
+#header>nav {
+	background: #a9d18e !important;
+	border: 1px solid #507e32;
+}
+
+#header>nav h1 {
+	color: #000;
+	font-weight: bold;
+}
+
+#header nav a {
+	font-size: 18px;
+	color: #4286f4;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#header nav span {
+	font-size: 18px;
+	color: #000;
+}
+
+
+/* End of Header
+=========================================================
+*/
+
+
+/*Main parts starts
+=========================================================
+*/
+
+
+/*Left and right nav
+-----------------------------------
+*/
+
+
+/*#main-content div.left-part{
+	margin-left:500px;
+}*/
+
+#main-content div.left-part>div,
+#main-content div.right-part>div {
+	background: #a9d18e;
+}
+
+#main-content div.left-part>div {
+	margin: 10px 0 0 30px;
+}
+
+#main-content div.right-part>div {
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+#main-content div.left-part>div h1,
+#main-content div.right-part>div h1 {
+	font-weight: bold;
+	padding: 10px 5px;
+	color: #000;
+	font-size: 26px;
+}
+
+#main-content div.left-part>div div.line,
+#main-content div.right-part>div div.line
+/*div span:not(span[class="my-date"])*/
+
+{
+	display: inline-block;
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+}
+
+#left-nav>ul,
+#right-nav ul {
+	list-style: none;
+	padding: 20px 0 0 5px;
+	margin: 0 5px 10px 30px;
+}
+
+#left-nav>ul li a,
+#right-nav>ul li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 5px 10px;
+	display: block;
+	width: 80%;
+	border: 1px solid transparent;
+}
+
+#left-nav>ul li a:hover,
+#right-nav>ul li a:hover {
+	background: #daa600;
+	border: 1px solid #7f6000;
+}
+a.clicked {
+	background: #daa600;
+}
+
+/*login-reister*/
+
+#main-content div.left-part div.login-register {
+	min-width: 80%;
+	max-width: 100%;
+}
+
+#main-content div.left-part div.login-register p {
+	font-size: 22px;
+	color: #000;
+	width: 100%;
+	padding-top: 10px;
+}
+
+div.bordered div.line {
+	border: 1px solid #507e32;
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+/*End of login-register*/
+
+
+/* End of Left and right nav
+-----------------------------------
+*/
+
+
+/*Center part
+-----------------------------------
+*/
+
+#main-content div.center-part div {
+	width: 100%;
+}
+
+#main-content div.center-part div.add-design {
+	background: #a9d18e !important;
+	margin: 10px 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+#main-content div.center-part div.add-design div.heading-and-date {
+	border: 0;
+	margin-bottom: 20px;
+}
+
+#main-content div.center-part>div.add-design div.heading-and-date h1 {
+	/*float:left;*/
+	float: left;
+	color: #000;
+	font-weight: bold;
+	width: 50%;
+	margin: 30px 0 10px 30px;
+}
+
+#main-content div.center-part>div.add-design div.heading-and-date span {
+	/*float:right;*/
+	float: right;
+	color: #000;
+	font-size: 20px;
+	width: 15%;
+	margin: 30px 20px 0 0;
+}
+
+div.center-part div.add-design div.s-row div.picture {
+	border: 2px dotted #a9d18e !important;
+	margin-left: 30px;
+	width: 23% !important;
+	background: #c5e0b4 !important;
+	padding: 15px 0;
+	float: left;
+}
+
+div.center-part div.add-design div.s-row div.picture img {
+	width: 100%;
+}
+
+div.center-part div.add-design div.s-row div.ad-content {
+	width: 65% !important;
+	float: left;
+	margin-left: 30px;
+}
+
+div.center-part div.add-design div.ad-content div.ad-data {
+	width: 94% !important;
+	background: #c5e0b4 !important;
+	border: 2px dotted #a9d18e !important;
+	margin-bottom: 20px;
+}
+
+div.center-part div.add-design div.ad-content div.ad-data p {
+	font-size: 20px !important;
+	color: #000;
+	padding-left: 10px;
+}
+
+div.center-part div.add-design div.ad-content div.user-data {
+	margin-left: -40px;
+}
+
+div.center-part div.add-design div.ad-content div.user-data>span:first-child {
+	font-size: 19px;
+	text-align: right !important;
+	display: inline-block;
+	width: 20% !important;
+}
+
+div.center-part div.add-design div.ad-content div.user-data>span:last-child {
+	background: #c5e0b4 !important;
+	border: 2px dotted #a9d18e !important;
+	width: 70%;
+	min-width: 48%;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+
+/*Login and Register pages starts (mainly login)
+-----------------------------------
+*/
+
+div.login-form {
+	padding: 0 30px;
+}
+
+div.login-form,
+div.my-form {
+	background: #a9d18e !important;
+	border: 1px solid #507e32;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+div.login-form h1,
+div.my-form h1 {
+	color: #000;
+	font-weight: bold;
+	text-align: center !important;
+}
+
+div.login-form div.line,
+div.my-form div.line {
+	border: 1px solid #507e32;
+	width: 100%;
+	margin: 10px auto!important;
+	text-align: center;
+}
+
+div.login-form form fieldset div label,
+div.my-form form fieldset div label {
+	font-size: 19px;
+	font-weight: normal;
+	color: #000;
+}
+
+div.login-form form fieldset div input {
+	height: 40px;
+	font-size: 19px;
+	border: 1px solid #507e32;
+}
+
+div.login-form form fieldset button {
+	padding: 5px 0 !important;
+	margin-top: 10px !important;
+}
+
+div.login-form form fieldset a,
+div.my-form form fieldset a {
+	display: inline-block;
+	font-size: 19px;
+	color: #4286f4;
+	margin-left: 10px;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.my-alert1,
+div.alert {
+	background: green !important;
+	text-align: center;
+}
+
+div.my-alert strong,
+div.my-alert1 strong {
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+}
+
+
+/*End of Login and register pages(mainly login)
+-----------------------------------
+*/
+
+
+/* Register page starts
+-----------------------------------
+*/
+
+div.my-form {
+	margin-left: 50px;
+	width: 90% !important;
+}
+
+div.my-form form fieldset div.f-4 {
+	padding-left: 30px;
+}
+
+div.my-form form fieldset div.l-3 {
+	margin-top: 75px;
+}
+
+div.my-form form fieldset div input,
+div.my-form form fieldset div select {
+	height: 40px;
+	width: 80%;
+	font-size: 19px;
+	border: 1px solid #507e32;
+}
+
+div.my-form form fieldset div button {
+	padding: 5px 0 !important;
+	margin: 20px 0 0 30px !important;
+}
+
+div.my-form form fieldset div.l-3 a {
+	margin: 20px !important;
+}
+
+div.my-form form fieldset a {
+	margin: 120px 0 0 20px !important;
+	padding: 10px 0 0 30px;
+	border: 0 !important;
+}
+
+
+/* End of register page
+-----------------------------------
+*/
+
+
+/* New ad page starts
+-----------------------------------
+
+*/
+
+div.my-form form.create-ad fieldset div input,
+div.my-form form.create-ad fieldset div select {
+	display: inline-block !important;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 75%
+}
+
+div.my-form form.create-ad fieldset div input.content {
+	height: 80px;
+}
+
+div.my-form form.create-ad fieldset div label {
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
+
+div.my-form form.create-ad fieldset button {
+	width: 30% !important;
+	min-width: 30% !important;
+	margin-top: 30px;
+}
+
+div.my-form form.create-ad fieldset button.publish {
+	margin-left: 130px;
+}
+
+div.my-form form.create-ad fieldset button.cancel {
+	margin-left: 30px;
+}
+
+
+/* End of new-ad
+-----------------------------------
+*/
+
+
+/* My ads page 
+-----------------------------------
+*/
+
+div.center-part div.my-ads-center-side {
+	margin-left: 40px !important;
+	width: 84% !important;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap {
+	/*width:90% !important;*/
+	border-right: 1px solid #507e32;
+	box-shadow: 20px #507e32;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap,
+div.center-part div.my-ads-center-side div.status {
+	float: left;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap div.heading-and-date>span {
+	float: left!important;
+	margin-left: 120px !important;
+	width:120px !important;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap div.ad-content div.ad-data {
+	width: 100% !important;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap div.ad-content div.ad-data p {
+	width: 100%;
+	margin-right: ;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap div.ad-content div.user-data {
+	margin-left: 10px !important;
+}
+
+div.center-part div.my-ads-center-side div.ad-wrap div.ad-content div.user-data>span:last-child {
+	/*margin-left:65px !important;*/
+	overflow-wrap: break-word;
+}
+
+div.center-part div.my-ads-center-side div.status {
+	width: 25% !important;
+	/*margin-top:4% !important;*/
+	/*margin-left:1%;*/
+}
+
+div.center-part div.my-ads-center-side div.status span:first-child {
+	display: block;
+	font-size: 19px;
+	margin: 12% 0 3% 37%;}
+
+div.center-part div.my-ads-center-side div.status span.st {
+	display: inline-block !important;
+	background: #c5e0b4 !important;
+	border: 2px dotted #a9d18e !important;
+	font-size: 18px;
+	padding: 5px;
+	width:70% !important;
+	margin-left:15%;
+}
+
+div.center-part div.my-ads-center-side div.status a
+ {
+	min-width: 50%;
+	max-width: 100%;
+	display: inline-block;
+	background: #6fab46;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 6px 0;
+	border: 1px solid #507e32;
+	overflow-wrap: break-word;
+	width: 70% !important;
+	margin-top:6% !important;
+	margin-left:15% ;
+	text-align:center;
+}
+
+
+/* End of my-ads
+-----------------------------------
+*/
+
+
+/*End of main-part
+=========================================================
+*/
+
+
+/*Pagination starts
+-----------------------------------
+*/
+
+
+
+div.my-pagination ul li {
+	margin-left: 5px !important;
+}
+
+div.my-pagination ul li a {
+	font-size: 18px;
+	color: #000;
+	background: #a9d18e
+	;
+	border: 2px solid #507e32 !important;
+}
+
+
+/*
+End of pagination
+-----------------------------------
+*/
+
+
+/*Footer starts
+=========================================================
+*/
+
+#footer>nav {
+	background: #a9d18e !important;
+	border: 1px solid #507e32;
+}
+
+#footer>nav p {
+	font-size: 18px;
+	color: #000;
+	padding: 0;
+}
+
+
+/*End of Footer
+=========================================================
+*/
+
+
+/*Admin panel starts
+=========================================================
+*/
+
+div.center-part div.admin-panel div.ad-wrap {
+	border-right: none !important;
+}
+
+div.center-part div.admin-panel div.ad-wrap div.line {
+	width: 92% !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.center-part div.admin-panel div.ad-wrap div.four-btns {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+div.center-part div.admin-panel div.ad-wrap div.four-btns button {
+	display: inline-block;
+	background: #6fab46;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 6px 0;
+	border: 1px solid #507e32;
+	overflow-wrap: break-word;
+	width: 17% !important;
+	margin-left: 25px !important;
+	min-width: 10% !important;
+}
+
+div.main-content div.admin-form {
+	margin-top: 100px !important;
+}
+/*====================================*/
+div.s-row p.conf-delete-text{
+	margin-top:20px;
+	font-size:18px;
+	color:#000;
+	width:85%;
+}
+div.add-design div section button{
+	display: inline-block;
+	background: #6fab46;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 8px 20px;
+	border: 1px solid #507e32;
+	overflow-wrap: break-word;
+
+}
+/*========================================*/
+table{
+  	border-collapse: collapse;
+  	margin-top:10px;
+  }
+table, th, td {
+    border: 1px solid black;
+    color:#000;
+    font-size:19px;
+
+}
+table tr:nth-child(even), table th{
+ 	background:#a9d18e;
+ }
+table td a{
+ 	color:blue;
+ }
+table td a:last-child{
+	display:inline-block;
+	margin-left:5px;
+}
+table tr td:nth-child(3){
+ 	color:blue;
+ }
+/* ========================================*/
+div.category div h1{
+	color:#000;
+	font-weight:bold;
+	margin: 20px 0;
+}
+div.category form fieldset div{
+	margin:25px 0 10px 30px ;
+}
+div.category form fieldset div label {
+	font-size: 19px;
+	font-weight: normal;
+	color: #000;
+}
+
+div.category form fieldset div input {
+	width:85%;
+	height: 40px;
+	font-size: 19px;
+	border: 1px solid #507e32;
+}
+/*===============================================*/
+div.category form fieldset div span{
+	background: #c5e0b4;
+		border: 2px dotted #a9d18e;
+		width: 85%;
+		padding:5px;
+		min-width: 48%;
+		font-size: 20px;
+		display:block;
+		margin-top:5px
+}
+/*=====================================================*/
+div.check-box{
+	font-size:20px;
+	margin-top:20px !important;
+}
+
+
+.selCateg {
+	background:#daa600;
+}
+
+.selTown {
+	background:#daa600;
+}
+.paginationColor{
+	background:#fff;
+}
+/*=====================================================*/
+div.admin-form form fieldset div.btns input{
+  		width:13%;
+  	}
